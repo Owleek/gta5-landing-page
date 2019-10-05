@@ -1,0 +1,78 @@
+body {
+    font-size: 1.125rem;
+    font-family: 'Roboto', sans-serif;
+    min-width: 320px;
+}
+
+h1, h2, h3, h4 {
+    margin: 0rem 0rem 1.5rem 0rem;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+h3, h4, h5 {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+p {
+    margin: 0rem 0rem 1.25rem 0rem;
+    line-height: 1.57;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.15s ease-in;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+.button {
+    border: none;
+    font-weight: bold;
+    background: transparent;
+    background-image: url('../images/button.png');
+    color: #ffffff;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    white-space: nowrap;
+    min-width: 540px;
+    min-height: 150px;
+    border-radius: 80px;
+    font-size: 36px;
+    line-height: 1;
+    padding-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+.page-center {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.layout-center {
+    max-width: 1170px;
+    margin: 0 auto;
+}

@@ -1,0 +1,26 @@
+@import "reset";
+@import "fontello";
+@import "owl.carousel.min";
+@import "owl.theme.default.min";
+
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    src: url('../fonts/AvenirNextCyr-Bold.eot');
+    src: url('../fonts/AvenirNextCyr-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirNextCyr-Bold.woff2') format('woff2'),
+        url('../fonts/AvenirNextCyr-Bold.woff') format('woff'),
+        url('../fonts/AvenirNextCyr-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next Cyr';
+    src: url('../fonts/AvenirNextCyr-Regular.eot');
+    src: url('../fonts/AvenirNextCyr-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirNextCyr-Regular.woff2') format('woff2'),
+        url('../fonts/AvenirNextCyr-Regular.woff') format('woff'),
+        url('../fonts/AvenirNextCyr-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,51 @@
+@import "libs";
+@import "variables";
+@import "mixin";
+@import "default";
+
+.section {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.head-section {
+    padding-top: 53px;
+
+    &__container {
+        max-width: 540px;
+        margin-left: 35px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__logo-holder {
+        max-width: 365px;
+        margin-bottom: 30px;
+    }
+
+    .download-info {
+        font-size: 24px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 55px;
+    }
+
+    .download-headline,
+    .download-size {
+        display: block;
+    }
+
+    .download-headline {
+        font-weight: 900;
+        margin-bottom: 10px;
+        letter-spacing: -1px;
+    }
+
+    .download-size {
+        font-size: 18px;
+    }
+
+}
