@@ -14,9 +14,12 @@ $(document).ready(function(){
     });
 
 	$(".next").click(function(){
+        console.log('Пуська молчит');
 		owl.trigger("next.owl.carousel");
-	});
+    });
+    
 	$(".prev").click(function(){
+        console.log('Пуська молчит');
 		owl.trigger("prev.owl.carousel");
 	});
 });

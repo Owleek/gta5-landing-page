@@ -45,6 +45,7 @@ img {
 
 .button {
     border: none;
+    font-family: 'Brutal Type';
     font-weight: bold;
     background: transparent;
     background-image: url('../images/button.png');
@@ -65,6 +66,10 @@ img {
     padding-bottom: 10px;
     cursor: pointer;
     transition: all 0.2s ease-in;
+
+    &:hover {
+        color: rgba(255, 247, 98, 0.8);
+    }
 }
 
 .page-center {
