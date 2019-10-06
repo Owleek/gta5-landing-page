@@ -1,6 +1,4 @@
 @import "libs";
-@import "variables";
-@import "mixin";
 @import "default";
 
 .section {
@@ -141,7 +139,7 @@
     }
 
     &__container {
-        max-width: 450px;
+        max-width: 355px;
         margin-left: 60px;
     }
 
@@ -165,7 +163,7 @@
     .comment {
         max-width: 356px;
         min-height: 287px;
-        padding: 60px 50px 80px 35px;
+        padding: 60px 40px 80px 35px;
         background-image: url('../images/comment.png');
         background-repeat: no-repeat;
         background-position: 50% 50%;
@@ -258,7 +256,7 @@
 
         .next {
             background-image: url('../images/right-arrow.png');
-            right: 50px;
+            right: -50px;
         }
     }
 }

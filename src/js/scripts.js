@@ -1,25 +1,19 @@
 $(document).ready(function(){
-    var owl = $(".owl-carousel");
+    const owl = $(".owl-carousel");
 
 	owl.owlCarousel({
+        items:1,
         loop:true,
         margin:10,
-        nav:true,
+        nav:false,
         dots: false,
-        responsive:{
-            0:{
-                items:1
-            },
-        }
     });
 
-	$(".next").click(function(){
-        console.log('Пуська молчит');
+	$(".next").on("click", function(){
 		owl.trigger("next.owl.carousel");
     });
     
-	$(".prev").click(function(){
-        console.log('Пуська молчит');
+	$(".prev").on("click", function(){
 		owl.trigger("prev.owl.carousel");
-	});
+    });
 });
