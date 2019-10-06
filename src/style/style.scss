@@ -7,11 +7,14 @@
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100vh;
+
 }
 
 .head-section {
     padding-top: 53px;
+    height: 720px;
+    min-height: 100vh;
+    max-height: 800px;
 
     &__container {
         max-width: 540px;
@@ -19,6 +22,8 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        position: relative;
+        z-index: 10;
     }
 
     &__logo-holder {
@@ -48,4 +53,73 @@
         font-size: 18px;
     }
 
+    &__gangsters {
+        position: absolute;
+        right: 0; bottom: 0;
+        max-width: 805px;
+    }
+
+    &__button-holder {
+        padding-bottom: 75px;
+    }
+
+    .layout-center {
+        height: 100%;
+    }
+}
+
+.relative {
+    position: relative;
+}
+
+.section-about {
+    color: #ffffff;
+    padding-top: 560px;
+    text-align: center;
+
+    &__title {
+        font-weight: bold;
+    }
+
+    &__info {
+        margin-bottom: 50px;
+        padding: 0px 40px;
+    }
+
+    &__text {
+        text-align: justify;
+    }
+
+    &__button-holder {
+        padding-bottom: 75px;
+    }
+}
+
+.second-section-about {
+    color: #ffffff;
+    
+    &__title {
+        margin-bottom: 30px;
+        font-size: 31px;
+        line-height: 1.4;
+    }
+
+    &__text {
+        margin-bottom: 85px;
+        font-weight: 300;
+        line-height: 1.3;
+    }
+
+    &__container {
+        margin-left: auto;
+        max-width: 620px;
+        padding: 60px 45px 100px;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    &__gangsters {
+        position: absolute;
+        left: -80px; bottom: 0;
+        max-width: 575px;
+    }
 }
