@@ -1,5 +1,7 @@
 $(document).ready(function(){
     const owl = $(".owl-carousel");
+    const button = $(".button");
+    const overlay = $(".overlay");
 
 	owl.owlCarousel({
         items:1,
@@ -16,4 +18,12 @@ $(document).ready(function(){
 	$(".prev").on("click", function(){
 		owl.trigger("prev.owl.carousel");
     });
+
+    button.on("click", function(){
+        overlay.show();
+    });
+
+    overlay.on("click", function(){
+        $(this).hide();
+    })
 });
